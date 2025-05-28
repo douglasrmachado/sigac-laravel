@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
         // Chama o seeder que cria o usuário admin
         $this->call([
             AdminUserSeeder::class,
+            AlunoUserSeeder::class,
         ]);
     }
 }
